@@ -37,9 +37,9 @@ if st.button("Predict"):
         st.subheader("📊 Prediction Result")
 
         if prediction == 1:
-            st.success("🤖 AI Generated Text")
+            st.success("🤖 AI Generated Text label 1")
         else:
-            st.success("🧑 Human Written Text")
+            st.success("🧑 Human Written Text label 0")
 
         # Confidence
         st.subheader("📈 Prediction Confidence")
